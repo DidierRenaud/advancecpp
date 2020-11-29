@@ -1,4 +1,4 @@
-// Chapitre1.cpp : Ce fichier contient la fonction 'main'. L'exécution du programme commence et se termine à cet endroit.
+// Chapitre1.cpp : Ce fichier contient la fonction 'main'. L'exÃ©cution du programme commence et se termine Ã  cet endroit.
 //
 
 #include <iostream>
@@ -105,7 +105,7 @@ void testVector(size_t loop) {
 	//iterator insert( const_iterator pos, std::initializer_list<T> ilist );
 	v.insert(v.begin(), 10);
 	v.insert(v.begin(), { 10,11,12 });
-	std::cout << "size vs capacité " << v.size() << " " << v.capacity() << std::endl;
+	std::cout << "size vs capacitÃ© " << v.size() << " " << v.capacity() << std::endl;
 	for (auto& item : v) {
 		std::cout << item << " ";
 	}
@@ -251,7 +251,7 @@ int main()
 	//DemoThread::sharedMutex();
 	//DemoThread::runFuture();
 	//DemoThread::runAsync();
-	DemoThread::runAtomic();
+	//DemoThread::runAtomic();
 	//DemoThread::runCondition();
 	/*
 	Magasin m;
